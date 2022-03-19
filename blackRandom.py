@@ -73,11 +73,11 @@ def SetCircle(turn, x):
   pen_size = randint(2, 4)
   size = randint(25,250)
   if size >= 25 and size < 50:
-    position_x = randint(-160, 140)
-    position_y = randint(-125, 95)
+    position_x = randint(-890, 890)
+    position_y = randint(-520, 520)
   elif size <= 250 and size >= 50:
-    position_x = randint(-200, 180)
-    position_y = randint(-140,90)
+    position_x = randint(-910, 910)
+    position_y = randint(-540, 540)
   r = randint(0,255)
   g = randint(0,255)
   b = randint(0,255)
@@ -98,18 +98,18 @@ def SetTriangle(turn, x):
   size = randint(25,250)
   if triangleRotation2 == 120:
     if size <= 100:
-      position_x = randint(-175, 140)
-      position_y = randint(-125, 100)
+      position_x = randint(-890, 890)
+      position_y = randint(-520, 520)
     else:
-      position_x = randint(-200, 140)
-      position_y = randint(-160, 100)
+      position_x = randint(-910, 910)
+      position_y = randint(-540, 540)
   elif triangleRotation2 == 240:
     if size <= 100:  
-      position_x = randint(-175, 140)
-      position_y = randint(-100, 120)
+      position_x = randint(-890, 890)
+      position_y = randint(-520, 520)
     else:
-      position_x = randint(-200, 140)
-      position_y = randint(-100, 200)
+      position_x = randint(-910, 910)
+      position_y = randint(-540, 540)
   r = randint(0,255)
   g = randint(0,255)
   b = randint(0,255)
@@ -130,11 +130,11 @@ def drawPara(turn, x):
   size = randint(25,250)
   size_2 = size/2
   if size >= 25 and size < 100:
-    position_x = randint(-170, 140)
-    position_y = randint(-110, 95)
-  elif size <= 250 and size > 100:
-    position_x = randint(-210, 140)
-    position_y = randint(-130,90)
+    position_x = randint(-890, 890)
+    position_y = randint(-520, 520)
+  elif size <= 250 and size >= 100:
+    position_x = randint(-910, 910)
+    position_y = randint(-540, 540)
   r = randint(0,255)
   g = randint(0,255)
   b = randint(0,255)
@@ -152,3 +152,5 @@ def drawPara(turn, x):
   left(110)
   forward(size_2)
   coin(turn, x)
+
+art(50, 3)
