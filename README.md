@@ -11,3 +11,7 @@ Use the functon art() with 2 parameters :
     - 1 = Triangle
     - 2 = Square
     - 3 = Parallelepiped
+
+## Modules used
+
+I used 1 graphic module to achieve the project: [Turtle](https://docs.python.org/3/library/turtle.html)
