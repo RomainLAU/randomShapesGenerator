@@ -8,7 +8,7 @@ Use the functon art() with 2 parameters :
 - Number of turns (the number of shapes that will be drawn)
 - The shape that will be drawn : 
     - 0 = Circle, example :
-        - ![program with triangles](https://github.com/RomainLAU/randomShapesGenerator/screenshots/circles.png?raw=true)    
+        - ![program with triangles](https://github.com/RomainLAU/randomShapesGenerator/screenshots/circles.png)    
     - 1 = Triangle
     - 2 = Square
     - 3 = Parallelepiped
