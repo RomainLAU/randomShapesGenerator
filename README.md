@@ -7,11 +7,14 @@ This is a program I developed for an art project which was about the theme "Draw
 Use the functon art() with 2 parameters :
 - Number of turns (the number of shapes that will be drawn)
 - The shape that will be drawn : 
-    - 0 = Circle, example :
-        - ![program with triangles](https://github.com/RomainLAU/randomShapesGenerator/screenshots/circles.png?raw=true)    
-    - 1 = Triangle
-    - 2 = Square
-    - 3 = Parallelepiped
+    - 0 = Circle, example:
+        - ![program with cicles](/screenshots/circles.png)
+    - 1 = Triangle, example:
+        - ![program with triangles](/screenshots/triangles.png)
+    - 2 = Square, example:
+        - ![program with squares](/screenshots/squares.png)
+    - 3 = Parallelepiped, example:
+        - ![program with parallelepiped](/screenshots/parallelepiped.png)
 
 ## Modules used
 
